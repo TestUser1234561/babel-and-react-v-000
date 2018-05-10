@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+var profile = (
+  <div>
+    <img src="avatar.png" className="profile" />
+    <h3>{[user.firstName, user.lastName].join(' ')}</h3>
+  </div>;
+)
+
 class App extends Component {
   render() {
     return (
